@@ -1,4 +1,4 @@
-# GriyaTech : Smart Building Solution
+# GriyaTech 
 <!DOCTYPE html>
 <html lang="id">
 <head>
