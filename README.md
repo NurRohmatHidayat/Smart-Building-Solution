@@ -7,9 +7,9 @@ Proyek ini bertujuan untuk mengembangkan sistem automasi cerdas yang terintegras
 
 # Modul Wiring Plan
 >- First Floor Plan
-
+<img src="Assets/First Floor Plan.jpg">
 >- Second Floor Plan
-
+<img src="Assets/Second Floor Plan.jpg">
 
 ## Support By :
 >- Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
