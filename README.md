@@ -14,7 +14,7 @@ Proyek ini bertujuan untuk mengembangkan sistem automasi cerdas yang terintegras
 ## Team Member :
 |      NRP      |       Nama      |    Jobdesk    |   Akun |
 | :-----------:|:----------------:| :------------:| :-----:|
-| 2122500003    | Raditya Giananta  | Hardware Developer       | 
+| 2122500003    | Raditya Giananta  | Hardware Developer       | [Radit](https://github.com/Radit-Gi)
 | 2122500006    | Nataratungga Xina T         |   UI/UX Designer | 
 | 2122500007    | Bisma Arya Putra         |    Programmer      | 
 | 2122500012    | Nur Rohmat Hidayat                | Project Manager | [Rohmat](https://github.com/NurRohmatHidayat)
