@@ -23,7 +23,7 @@ Proyek ini bertujuan untuk mengembangkan sistem automasi cerdas yang terintegras
 
 # Wiring Plan
 >- First Floor Plan
-<img src="Assets/First Floor Plan.jpg" width = 200>
+<img src="Assets/First Floor Plan.jpg" width = 400>
 >- Second Floor Plan
-<img src="Assets/Second Floor Plan.jpg" width = 200>
+<img src="Assets/Second Floor Plan.jpg" width = 400>
 
