@@ -30,6 +30,11 @@ Proyek ini bertujuan untuk mengembangkan sistem automasi cerdas yang terintegras
 # Komponen
 1. ESP32
 2. Shield PCB
+3. RTC
+4. Sensor Suhu DHT11
+5. Sensor Arus ACS712
+6. Sensor Tegangan (ZMPT101B)
+7. Relay SPDT (3A 3,3V)
 
 
 # [Hardware](Hardware/Readme.md)
