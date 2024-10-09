@@ -16,7 +16,7 @@ Proyek ini bertujuan untuk mengembangkan sistem automasi cerdas yang terintegras
 | :-----------:|:----------------:| :------------:| :-----:|
 | 2122500003    | Raditya Giananta  | Hardware Developer       | [Radit](https://github.com/Radit-Gi)
 | 2122500006    | Nataratungga Xina T         |   UI/UX Designer | 
-| 2122500007    | Bisma Arya Putra         |    Programmer      | 
+| 2122500007    | Bisma Arya Putra         |    Programmer      | [Bisma](https://github.com/Bismaap)
 | 2122500012    | Nur Rohmat Hidayat                | Project Manager | [Rohmat](https://github.com/NurRohmatHidayat)
 | 2122500020    | Ezar Prasetya               | UI/UX Designer     | 
 | 2122500030    | Ziyad Nur Muhammad               | 3D Designer     |[Ziyad](https://github.com/Yadnur)
