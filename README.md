@@ -15,10 +15,10 @@ Proyek ini bertujuan untuk mengembangkan sistem automasi cerdas yang terintegras
 |      NRP      |       Nama      |    Jobdesk    |   Akun |
 | :-----------:|:----------------:| :------------:| :-----:|
 | 2122500003    | Raditya Giananta  | Hardware Developer       | [Radit](https://github.com/Radit-Gi)
-| 2122500006    | Nataratungga Xina T         |   UI/UX Designer | 
+| 2122500006    | Nataratungga Xina T         |   UI/UX Designer | [Ratu](https://github.com/nataratungga)
 | 2122500007    | Bisma Arya Putra         |    Programmer      | [Bisma](https://github.com/Bismaap)
 | 2122500012    | Nur Rohmat Hidayat                | Project Manager | [Rohmat](https://github.com/NurRohmatHidayat)
-| 2122500020    | Ezar Prasetya               | UI/UX Designer     | 
+| 2122500020    | Ezar Prasetya               | UI/UX Designer     | [Ezar](https://github.com/EzarPrasetya)
 | 2122500030    | Ziyad Nur Muhammad               | 3D Designer     |[Ziyad](https://github.com/Yadnur)
 
 # Wiring Plan
@@ -26,4 +26,17 @@ Proyek ini bertujuan untuk mengembangkan sistem automasi cerdas yang terintegras
 <img src="Assets/First Floor Plan.jpg" width = 400>
 >- Second Floor Plan
 <img src="Assets/Second Floor Plan.jpg" width = 400>
+
+# Komponen
+1. ESP32
+2. Shield PCB
+3. RTC
+4. Sensor Suhu DHT11
+5. Sensor Arus ACS712
+6. Sensor Tegangan (ZMPT101B)
+7. Relay SPDT (3A 3,3V)
+
+
+# [Hardware](Hardware/Readme.md)
+
 
