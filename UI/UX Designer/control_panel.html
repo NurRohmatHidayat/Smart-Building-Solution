@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panel</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Menghubungkan ke styles.css -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/justgage/1.3.0/justgage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+    <script src="control.js" defer></script> <!-- Menghubungkan ke control.js -->
+</head>
+<body>
+    <div class="container">
+        <h1>Control Panel</h1>
+        
+        <div class="gauge-container">
+            <div id="gauge" style="width: 200px; height: 200px;"></div>
+            <p id="current-value">0 A</p>
+        </div>
+
+        <div class="power-consumption">
+            <h2>Voltage</h2>
+            <p id="voltage-value">220 V</p>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="myChart" width="400" height="200"></canvas>
+        </div>
+    </div>
+</body>
+</html>
