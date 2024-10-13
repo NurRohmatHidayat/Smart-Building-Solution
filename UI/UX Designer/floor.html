@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilih Lantai</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="floor.js" defer></script>
+</head>
+<body>
+    <header>
+        <!-- Logout di pojok kanan atas -->
+        <div class="logout-container">
+            <button id="logout-btn">Logout</button>
+        </div>
+    </header>
+
+    <div class="floor-selection-container">
+        <h1>Pilih Lantai</h1>
+
+        <!-- Notifikasi alert untuk pemakaian listrik -->
+        <div id="alert-container" class="alert safe">
+            <p id="alert-message">Status: Safe</p>
+        </div>
+
+        <div class="floors">
+            <!-- Tombol lantai untuk berpindah ke halaman detail lantai -->
+            <button class="floor-btn" data-floor="1">Lantai 1</button>
+            <button class="floor-btn" data-floor="2">Lantai 2</button>
+            <button class="floor-btn" data-floor="3">Lantai 3</button>
+            <button class="floor-btn" data-floor="4">Lantai 4</button>
+            <button class="floor-btn" data-floor="5">Lantai 5</button>
+            <button class="floor-btn" data-floor="6">Lantai 6</button>
+            <button class="floor-btn" data-floor="7">Lantai 7</button>
+        </div>
+    </div>
+</body>
+</html>
