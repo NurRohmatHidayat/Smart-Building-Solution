@@ -7,6 +7,8 @@
 #define DHTTYPE DHT22  // DHT22 (AM2302)
 #define VOLTAGE_PIN 34 // Pin potensiometer untuk tegangan terhubung ke GPIO 34 (A0)
 #define CURRENT_PIN 35  // Pin potensiometer untuk arus terhubung ke GPIO 35 (A1)
+#define RELAY_AC 32 // Pin relay untuk AC terhubung ke GPIO32
+#define RELAY_LAMP 33 // Pin relay untuk lampu ruangan terhubung ke GPIO33
 
 // Inisialisasi sensor DHT
 DHT dht(DHTPIN, DHTTYPE);
@@ -42,6 +44,14 @@ void setup() {
   // Memulai RTC
   Wire.begin();
   rtc.begin();
+
+  // mengatur pin relay sebagai output
+  pinMode(RELAY_AC, OUTPUT);
+  pinMode(RELAY_LAMP, OUTPUT);
+
+  //Matikan relay pada awalnya
+  digitalWrite(RELAY_AC, HIGH);
+  digitalWrite(RELAY_LAMP, HIGH);
 }
 
 void loop() {
@@ -71,6 +81,24 @@ void loop() {
   if (isnan(humidity) || isnan(temperature)) {
     Serial.println(F("Failed to read from DHT sensor!"));
     return;
+  }
+
+  // Pengaturan relay untuk AC berdasarkan suhu
+  if (temperature < 16) {
+    digitalWrite(RELAY_AC, LOW);  // Matikan AC (relay OFF)
+    Serial.println(F("AC/LED OFF (Suhu < 16°C)"));
+  } else if (temperature >= 27) {
+    digitalWrite(RELAY_AC, HIGH);   // Nyalakan AC (relay ON)
+    Serial.println(F("AC/LED ON (Suhu >= 27°C)"));
+  }
+
+  // Pengaturan relay untuk lampu berdasarkan waktu (antara jam 15:00 sampai 16:00)
+  if (now.hour() >= 17 && now.hour() < 6) {
+    digitalWrite(RELAY_LAMP, LOW);  // Nyalakan lampu (relay ON)
+    Serial.println(F("Lampu Ruangan ON (Jam >= 17:00 dan < 6:00)"));
+  } else {
+    digitalWrite(RELAY_LAMP, HIGH); // Matikan lampu di luar jam 15:00 - 16:00 (relay OFF)
+    Serial.println(F("Lampu Ruangan OFF (Di luar waktu 17:00 - 6:00)"));
   }
 
   // Cetak hasil pembacaan ke Serial Monitor
