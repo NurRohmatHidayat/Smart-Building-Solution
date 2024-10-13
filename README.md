@@ -3,7 +3,11 @@
 # GriyaTech
 ## Smart-Building-System-Berbasis IoT
 
-Proyek ini bertujuan untuk mengembangkan sistem automasi cerdas yang terintegrasi pada gedung bertingkat untuk kebutuhan Smart Building. Sistem ini akan memungkinkan pemilik rumah atau penghuni gedung untuk memonitor dan mengontrol perangkat elektronik serta lingkungan, seperti pencahayaan, AC, keamanan, dan konsumsi energi, secara real-time melalui platform IoT. Solusi ini berfokus pada peningkatan efisiensi energi, kenyamanan, dan keamanan dengan memanfaatkan teknologi berbasis sensor dan cloud.
+Proyek ini bertujuan untuk mengembangkan sistem automasi cerdas berbasis IoT untuk Smart Building, menggunakan komponen utama seperti ESP32, RTC, dan berbagai sensor. ESP32 bertindak sebagai mikroprosesor utama yang mengontrol komunikasi antar sensor dan perangkat, memungkinkan pemantauan dan pengontrolan secara real-time melalui jaringan Wi-Fi. Sistem ini dilengkapi dengan RTC (Real-Time Clock) untuk menjaga sinkronisasi waktu, serta sensor suhu DHT11 yang digunakan untuk mengoptimalkan pengaturan suhu dan kelembaban di dalam gedung.
+
+Untuk memantau konsumsi energi, digunakan sensor arus ACS712 dan sensor tegangan ZMPT101B yang secara akurat mengukur penggunaan listrik dan tegangan pada berbagai perangkat. Selain itu, Relay SPDT (3A 3,3V) berfungsi sebagai saklar otomatis yang memungkinkan pengendalian perangkat elektronik seperti lampu dan sistem pendingin. 
+
+Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke platform cloud, memungkinkan pemilik gedung untuk memantau penggunaan energi dan kondisi lingkungan secara langsung dari aplikasi mobile. Sistem ini dirancang untuk meningkatkan efisiensi energi, kenyamanan, serta keamanan penghuni gedung dengan mengotomatiskan berbagai fungsi dan memberikan kendali yang lebih fleksibel.
 
 ## Support By :
 >- Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
@@ -29,15 +33,31 @@ Proyek ini bertujuan untuk mengembangkan sistem automasi cerdas yang terintegras
 - [Program ESP32](#Program-ESP32)
 - [Program Design UI/UX](#Pogram-Design-UI/UX)
 
+ 
 ## Komponen Yang Digunakan
-1. ESP32
-2. Shield PCB
-3. RTC
-4. Sensor Suhu DHT11
-5. Sensor Arus ACS712
-6. Sensor Tegangan (ZMPT101B)
-7. Relay SPDT (3A 3,3V)
+1. **Hardware**<br>
+    a. ESP32<br>
+    b. Shield PCB<br>
+    c. RTC<br>
+    d. Sensor Suhu DHT11<br>
+    e. Sensor Arus ACS712<br>
+    f. Sensor Tegangan (ZMPT101B)<br>
+    g. Relay SPDT (3A 3,3V)<br>
 
+2. **Software**<br>
+    a. Arduino ide<br>
+    b. KiCad<br>
+    c. Inventor<br>
+    d. Visual Studio Code (VSC)<br>
+    e. Eagle<br>
+
+3. **Alat**<br>
+    a. Solder<br>
+    b. Timah solder<br>
+    c. Kabel jumper<br>
+    d. Breadboard<br>
+    e. Obeng<br>
+ 
 ## Wiring Plan
 >- First Floor Plan
 >- <img src="Assets/First Floor Plan.jpg" width = 400>
@@ -70,8 +90,12 @@ Program utama dari projek ini :
 Berikut ini adalah hasil rangkaian simulasi Smart Building System IoT menggunakan Wokwi.
 
 <img src="Dokumentasi/Rangkaian Modul ESP32.jpg">
+Simulasi ini kami menggunakan ESP32 untuk mengontrol sensor dan modul yang terhubung di breadboard. Simulasi dilakukan menggunakan Wokwi, yang memudahkan pengujian rangkaian secara virtual sebelum implementasi fisik. Rangkaian melibatkan sensor DHT22, modul relay, LED indikator, potensiometer, dan RTC untuk sinkronisasi waktu.
 
-Berikut adalah video demontrasi alat menggunakan wokwi. Klik link [youtube berikut]("youtube berikut")
+Relay digunakan untuk mengontrol perangkat eksternal, sementara LED menunjukkan status sistem. Simulasi ini membantu dalam debugging dan memastikan komunikasi antar komponen berjalan baik. Meskipun Wokwi tidak menyediakan semua komponen, platform ini sangat berguna untuk pengujian dan visualisasi fungsi dasar rangkaian, membantu mengidentifikasi masalah sebelum produksi fisik.
+
+
+Berikut adalah video demontrasi alat menggunakan wokwi. Klik link [Video Simulasi Software](https://youtu.be/oXDYyiHHBaU "Video Simulasi Software")
 
 ## [Program Design UI/UX](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer)
 
