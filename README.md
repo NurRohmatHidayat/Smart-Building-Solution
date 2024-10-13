@@ -18,12 +18,12 @@ Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke 
 ## Team Member :
 |      NRP      |       Nama      |    Jobdesk    |   Akun |
 | :-----------:|:----------------:| :------------:| :-----:|
-| 2122500003    | Raditya Giananta  | Hardware Developer       | [Radit](https://github.com/Radit-Gi)
-| 2122500006    | Nataratungga Xina T         |   UI/UX Designer | [Ratu](https://github.com/nataratungga)
-| 2122500007    | Bisma Arya Putra         |    Programmer      | [Bisma](https://github.com/Bismaap)
-| 2122500012    | Nur Rohmat Hidayat                | Project Manager | [Rohmat](https://github.com/NurRohmatHidayat)
-| 2122500020    | Ezar Prasetya               | UI/UX Designer     | [Ezar](https://github.com/EzarPrasetya)
-| 2122500030    | Ziyad Nur Muhammad               | 3D Designer     |[Ziyad](https://github.com/Yadnur)
+| 2122600003    | Raditya Giananta  | Hardware Developer       | [Radit](https://github.com/Radit-Gi)
+| 2122600006    | Nataratungga Xina T         |   UI/UX Designer | [Ratu](https://github.com/nataratungga)
+| 2122600007    | Bisma Arya Putra         |    Programmer      | [Bisma](https://github.com/Bismaap)
+| 2122600012    | Nur Rohmat Hidayat                | Project Manager | [Rohmat](https://github.com/NurRohmatHidayat)
+| 2122600020    | Ezar Prasetya               | UI/UX Designer     | [Ezar](https://github.com/EzarPrasetya)
+| 2122600030    | Ziyad Nur Muhammad               | 3D Designer     |[Ziyad](https://github.com/Yadnur)
 
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
@@ -103,5 +103,6 @@ Relay digunakan untuk mengontrol perangkat eksternal, sementara LED menunjukkan 
 
 Berikut adalah video demontrasi alat menggunakan wokwi. Klik link [Video Simulasi Software](https://youtu.be/oXDYyiHHBaU "Video Simulasi Software")
 
-## [Program Design UI/UX](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer)
+## [Program Design UI/UX]
 
+Berikut ini adalah program untuk WEB Smart Building System IoT menggunakan bahasa HTML [Program](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer)
