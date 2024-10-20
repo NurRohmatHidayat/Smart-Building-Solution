@@ -1,0 +1,227 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dddddb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Menambahkan efek transisi */
+}
+
+/* Kontainer utama login */
+#login-container {
+    background-color: #dddddb;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Update untuk .logo-container agar logo berada di tengah */
+.logo-container {
+    margin-bottom: 20px;
+    justify-content: center; /* Menjajarkan item di tengah secara horizontal */
+    text-align: center; /* Memastikan teks di tengah jika ada */
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    transition: all 3s ease;
+    transform-origin: center; /* Pusatkan transformasi pada tengah logo */
+}
+
+.logo:hover {
+    transform: scale(1.3) rotate(360deg); /* Skala sedikit lebih besar dan putar */
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.7); /* Glow efek futuristis */
+    filter: brightness(1.2); /* Mencerahkan gambar sedikit */
+    cursor: pointer; /* Ganti kursor menjadi pointer saat hover */
+    background-color: #ccc; /* Ubah warna latar belakang menjadi abu-abu saat hover */
+}
+
+.logo:active {
+    transform: scale(0.95) rotate(0deg); /* Sedikit mengecilkan gambar ketika ditekan */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Kurangi intensitas glow saat klik */
+    filter: brightness(1); /* Kembali ke tingkat kecerahan normal */
+    background-color: #bbb; /* Ubah warna latar belakang menjadi lebih gelap saat ditekan */
+}
+
+/* Styling untuk heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Styling untuk teks deskripsi */
+p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Styling form login */
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Styling untuk tombol login */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Menambahkan transisi untuk transform */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05) rotate(1deg); /* Sedikit membesar dan berputar */
+    box-shadow: 0 0 15px rgba(248, 25, 248, 0.89); /* Glow efek futuristis */
+    background-color: #e81def; /* Ubah warna latar belakang saat hover */
+}
+
+button[type="submit"]:active {
+    transform: scale(0.95) rotate(0deg); /* Mengecilkan saat ditekan */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Mengurangi intensitas glow saat klik */
+    background-color: #bbb; /* Ubah warna latar belakang menjadi lebih gelap saat ditekan */
+}
+
+/* Link register */
+#register-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Menambahkan transisi untuk efek hover */
+}
+
+#register-link:hover {
+    color: #000000; /* Ganti warna saat hover */
+    transform: scale(1.1) rotate(-2deg); /* Sedikit membesar dan berputar */
+    box-shadow: 0 0 15px rgba(248, 229, 23, 0.7); /* Glow efek futuristis */
+    background-color: #effe1d; /* Ubah warna latar belakang saat hover */
+}
+
+#register-link:active {
+    transform: scale(0.95) rotate(0deg); /* Mengecilkan saat ditekan */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Mengurangi intensitas glow saat klik */
+    background-color: #bbb; /* Ubah warna latar belakang menjadi lebih gelap saat ditekan */
+}
+
+/* Animasi fade-in untuk login-container */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Transisi untuk body saat berpindah halaman */
+.fade-out {
+    opacity: 0; /* Menyembunyikan halaman */
+    transform: translateY(-10px); /* Menggeser sedikit ke atas saat keluar */
+}
+
+/* Kelas untuk memulai transisi masuk */
+.fade-in {
+    opacity: 0; /* Set opacity ke 0 sebelum animasi masuk */
+    transform: translateY(10px); /* Mulai dari posisi sedikit di bawah */
+}
+
+/* Setelah animasi selesai, set opacity kembali */
+.fade-in-active {
+    opacity: 1; /* Mengembalikan opacity ke 1 */
+    transform: translateY(0); /* Kembali ke posisi normal */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Pastikan transisi yang sama */
+}
+
+/* Styling untuk teks footer */
+.footer-text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+}
+
+/* Styling untuk tautan di footer */
+.footer-text a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Menambahkan transisi untuk efek hover */
+}
+
+.footer-text a:hover {
+    color: #0056b3; /* Ganti warna saat hover */
+    text-decoration: underline; /* Tambahkan garis bawah saat hover */
+}
+
+/* Menambahkan gaya untuk form wrapper */
+.form-wrapper {
+    background-color: #dddddb; /* Mengubah latar belakang menjadi putih untuk kontras */
+    padding: 30px; /* Menambahkan padding untuk isi form */
+    border-radius: 10px; /* Menjaga sudut tetap bulat */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek kedalaman */
+}
+
+/* Responsif untuk layar kecil */
+@media screen and (max-width: 768px) {
+    #login-container {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    button[type="submit"] {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
