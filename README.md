@@ -76,13 +76,16 @@ Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunaka
 
 ## [Desain 3D](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Desain%203D)
 
-1. Desain 3D Casing Atas <br>
+1. Desain 3D Casing Top <br>
 <img src="Dokumentasi/Design Atas.png">
 
-2. Desain 3D Casing Bawah <br>
+2. Desain 3D Casing Down <br>
 <img src="Dokumentasi/Design Bawah.png">
 
-3. Desain 3D Casing Assembly <br>
+4. Desain 3D Using Komponen <br>
+<img src="Dokumentasi/UsingKomponen.png">
+
+4. Desain 3D Casing Assembly <br>
 <img src="Dokumentasi/Asemmbly.png">
 
 Berikut adalah Link Thingivers Design 3D. Klik link Video Simulasi Software [Thingivers](https://www.thingiverse.com/thing:6796394)
