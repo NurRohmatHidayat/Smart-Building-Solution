@@ -72,7 +72,7 @@ Berikut ini adalah hasil skematik rangkaian Smart Building System IoT menggunaka
 
 Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
 
-<img src="Dokumentasi/Smart Building.jpg">
+<img src="Dokumentasi/Smart Building.png">
 
 ## [Desain 3D](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Desain%203D)
 
