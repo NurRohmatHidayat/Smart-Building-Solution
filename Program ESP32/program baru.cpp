@@ -190,7 +190,7 @@ void loop() {
   client.publish(topic_current, String(kWh).c_str());
   client.publish(topic_battery, String(temperature).c_str());
 
-  delay(5000);  // Kirim setiap 5 detik
+  delay(4000);  // Kirim setiap 5 detik
 
   
 }
