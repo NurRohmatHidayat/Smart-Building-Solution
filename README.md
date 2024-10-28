@@ -18,7 +18,7 @@ Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke 
 ## Team Member :
 |      NRP      |       Nama      |    Jobdesk    |   Akun |
 | :-----------:|:----------------:| :------------:| :-----:|
-| 2122600003    | Raditya Giananta  | Hardware Developer       | [Radit](https://github.com/Radit-Gi)
+| 2122600003    | Raditya Giananta  | Hardware Developer       | [Radit](https://github.com/Raditya-G)
 | 2122600006    | Nataratungga Xina T         |   UI/UX Designer | [Ratu](https://github.com/nataratungga)
 | 2122600007    | Bisma Arya Putra         |    Programmer      | [Bisma](https://github.com/Bismaap)
 | 2122600012    | Nur Rohmat Hidayat                | Project Manager | [Rohmat](https://github.com/NurRohmatHidayat)
