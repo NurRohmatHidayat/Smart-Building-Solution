@@ -16,6 +16,7 @@ Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke 
 >- Politeknik Elektronika Negeri Surabaya<br>
 
 ## Team Member :
+<img src="Kel GT.png" width = 400>
 |      NRP      |       Nama      |    Jobdesk    |   Akun |
 | :-----------:|:----------------:| :------------:| :-----:|
 | 2122500003    | Raditya Giananta  | Hardware Developer       | [Radit](https://github.com/Radit-Gi)
