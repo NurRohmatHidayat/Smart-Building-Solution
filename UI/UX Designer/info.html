@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/info.css">
+    <title>Info Pengguna</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Informasi Pengguna</h2>
+        <!-- Menampilkan username yang tersimpan di localStorage -->
+        <p>Username: <span id="username"></span></p>
+
+        <!-- Tombol kembali ke halaman utama -->
+        <button onclick="window.location.href = 'index.html'">Logout</button>
+        
+        <!-- iframe untuk menampilkan halaman lain, seperti lantai.html -->
+        <iframe src="floor.html" title="Daftar Lantai"></iframe>
+        <iframe src="data_floor.html" id="data-floor-frame"></iframe>
+    </div>
+
+    <!-- Script untuk mengambil username dari localStorage -->
+    <script>
+        // Ambil username dari localStorage
+        const username = localStorage.getItem("username");
+
+        // Tampilkan username di halaman, atau tampilkan "Pengguna" jika username tidak ditemukan
+        document.getElementById("username").textContent = username || "Pengguna";
+    </script>
+</body>
+</html>
