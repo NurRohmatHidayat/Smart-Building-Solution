@@ -1,0 +1,3 @@
+msg.topic = "INSERT INTO sensor(tegangan, arus, daya, suhu, baterai)" + 
+    "VALUES ('" + msg.payload.tegangan+"', '" + msg.payload.arus+"', '"+msg.payload.daya+"', '"+msg.payload.suhu+"', '"+msg.payload.baterai+"');";
+return msg;
