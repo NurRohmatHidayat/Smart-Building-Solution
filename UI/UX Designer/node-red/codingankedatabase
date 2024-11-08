@@ -27,7 +27,7 @@ data.forEach(function (item) {
             baterai = parseFloat(value);
         }
     }
-});
+}); 
 
 if (tegangan !== null && arus !== null && daya !== null && suhu !== null && baterai !== null) {
     
