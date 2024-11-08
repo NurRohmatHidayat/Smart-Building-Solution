@@ -16,15 +16,14 @@ Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke 
 >- Politeknik Elektronika Negeri Surabaya<br>
 
 ## Team Member :
-<img src="Kel GT.png" width = 400>
 |      NRP      |       Nama      |    Jobdesk    |   Akun |
 | :-----------:|:----------------:| :------------:| :-----:|
-| 2122500003    | Raditya Giananta  | Hardware Developer       | [Radit](https://github.com/Radit-Gi)
-| 2122500006    | Nataratungga Xina T         |   UI/UX Designer | [Ratu](https://github.com/nataratungga)
-| 2122500007    | Bisma Arya Putra         |    Programmer      | [Bisma](https://github.com/Bismaap)
-| 2122500012    | Nur Rohmat Hidayat                | Project Manager | [Rohmat](https://github.com/NurRohmatHidayat)
-| 2122500020    | Ezar Prasetya               | UI/UX Designer     | [Ezar](https://github.com/EzarPrasetya)
-| 2122500030    | Ziyad Nur Muhammad               | 3D Designer     |[Ziyad](https://github.com/Yadnur)
+| 2122600003    | Raditya Giananta  | Hardware Developer       | [Radit](https://github.com/Raditya-G)
+| 2122600006    | Nataratungga Xina T         |   UI/UX Designer | [Ratu](https://github.com/nataratungga)
+| 2122600007    | Bisma Arya Putra         |    Programmer      | [Bisma](https://github.com/Bismaap)
+| 2122600012    | Nur Rohmat Hidayat                | Project Manager | [Rohmat](https://github.com/NurRohmatHidayat)
+| 2122600020    | Ezar Prasetya               | UI/UX Designer     | [Ezar](https://github.com/EzarPrasetya)
+| 2122600030    | Ziyad Nur Muhammad               | 3D Designer     |[Ziyad](https://github.com/Yadnur)
 
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
@@ -72,16 +71,27 @@ Berikut ini adalah hasil skematik rangkaian Smart Building System IoT menggunaka
 <img src="Dokumentasi/Smart Building SCH.png">
 
 Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+<img src="Dokumentasi/Smart Building Board.png">
 
-<img src="Dokumentasi/Smart Building.jpg">
+Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+<img src="Dokumentasi/Smart Building 3D Board.png">
 
 ## [Desain 3D](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Desain%203D)
 
-1. Desain 3D Casing Atas <br>
+1. Desain 3D Casing Top <br>
+<img src="Dokumentasi/Design Atas.png">
 
-2. Desain 3D Casing Bawah <br>
+2. Desain 3D Casing Down <br>
+<img src="Dokumentasi/BOX_Hardware.png">
 
-3. Desain 3D Casing + Komponen <br>
+4. Desain 3D Using Komponen <br>
+<img src="Dokumentasi/UsingKomponen.png">
+
+4. Desain 3D Casing Assembly <br>
+<img src="Dokumentasi/Asemmbly.png">
+
+Berikut adalah Link Thingivers Design 3D. Klik link Video Simulasi Software [Thingivers](https://www.thingiverse.com/thing:6796394)
+
 
 ## Program ESP32
 
@@ -98,5 +108,6 @@ Relay digunakan untuk mengontrol perangkat eksternal, sementara LED menunjukkan 
 
 Berikut adalah video demontrasi alat menggunakan wokwi. Klik link [Video Simulasi Software](https://youtu.be/oXDYyiHHBaU "Video Simulasi Software")
 
-## [Program Design UI/UX](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer)
+## [Program Design UI/UX]
 
+Berikut ini adalah program untuk WEB Smart Building System IoT menggunakan bahasa HTML [Program](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer)

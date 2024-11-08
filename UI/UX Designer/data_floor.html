@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/data_floor.css">
+    <title>Data Lantai</title>
+</head>
+<body>
+    <div class="data-container">
+        <h2>Data Lantai</h2>
+        <p id="floor-name">Memuat data...</p>
+        <p>Nilai Arus: <span id="current-value">0 A</span></p>
+        <p>Nilai Tegangan: <span id="voltage-value">0 V</span></p>
+        <p>Nilai Suhu: <span id="temperature-value">0 °C</span></p>
+        <button onclick="controlLampu()">Kontrol Lampu</button>
+    </div>
+
+    <script>
+        function updateData() {
+            // Ambil nama lantai dari localStorage
+            const currentFloor = localStorage.getItem('selectedFloor');
+
+            // Pastikan ada nilai yang diambil dari localStorage
+            if (currentFloor) {
+                document.getElementById('floor-name').textContent = `Data untuk ${currentFloor}`;
+            } else {
+                document.getElementById('floor-name').textContent = `Tidak ada data lantai yang dipilih.`;
+            }
+
+            // Simulasi data
+            const current = (Math.random() * 10).toFixed(2); // Simulasi nilai arus
+            const voltage = (Math.random() * 240).toFixed(2); // Simulasi nilai tegangan
+            const temperature = (Math.random() * 40).toFixed(2); // Simulasi suhu
+
+            document.getElementById('current-value').textContent = `${current} A`;
+            document.getElementById('voltage-value').textContent = `${voltage} V`;
+            document.getElementById('temperature-value').textContent = `${temperature} °C`;
+        }
+
+        function controlLampu() {
+            const currentFloor = localStorage.getItem('selectedFloor');
+            if (currentFloor) {
+                alert(`Lampu di ${currentFloor} berhasil dikontrol!`);
+            } else {
+                alert('Tidak ada lantai yang dipilih untuk kontrol lampu.');
+            }
+        }
+
+        // Panggil fungsi untuk memperbarui data saat halaman dimuat
+        window.onload = () => {
+            updateData();
+            setInterval(updateData, 1000);
+            console.log(`Lantai yang dipilih: ${localStorage.getItem('selectedFloor')}`); // Tambahkan untuk debugging
+        };
+    </script>
+</body>
+</html>

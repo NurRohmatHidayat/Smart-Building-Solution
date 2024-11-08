@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/floor.css"> </link>
+    <title> Daftar Lantai</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="buttons-container">
+        <button onclick="alert('Anda di Lantai 1')">Lantai 1</button>
+        <button onclick="alert('Anda di Lantai 2')">Lantai 2</button>
+        <button onclick="alert('Anda di Lantai 3')">Lantai 3</button>
+        <button onclick="alert('Anda di Lantai 4')">Lantai 4</button>
+        <button onclick="alert('Anda di Lantai 5')">Lantai 5</button>
+        <button onclick="alert('Anda di Lantai 6')">Lantai 6</button>
+        <!-- Tambahkan tombol sesuai kebutuhan -->
+    </div>
+
+    <script>
+        function showData(lantai) {
+            const dataFrame = window.parent.document.getElementById('data-floor-frame');
+            dataFrame.contentWindow.updateData(lantai);
+        }
+        
+        function pilihLantai(namaLantai) {
+            // Simpan nama lantai yang dipilih ke localStorage
+            localStorage.setItem('selectedFloor', namaLantai);
+
+            // Tambahkan untuk debugging
+            console.log(`Lantai yang dipilih: ${namaLantai}`);
+            
+            // Arahkan ke data_floor.html
+            window.location.href = "data_floor.html";
+        }
+    </script>
+
+</body>
+</html>

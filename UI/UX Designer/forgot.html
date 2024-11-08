@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Lupa Password</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="forgot-form">
+            <h2>Lupa Password</h2>
+            <div class="inputan">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Tulis Email">
+            </div>
+            <div class="tombolan">
+                <button id="sendResetButton">Kirim Permintaan Reset</button>
+                <button onclick="window.location.href = 'index.html'">Kembali</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FIREBASE WAJIB -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    
+    <!-- FIREBASE PILIHAN -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+
+    <script src="./scripts/firebase-config.js"></script>
+    <script src="./scripts/forgot.js"></script>
+</body>
+</html>
