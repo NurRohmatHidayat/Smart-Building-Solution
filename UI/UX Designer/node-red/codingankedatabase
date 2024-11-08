@@ -1,0 +1,43 @@
+var payload = msg.payload;
+
+var data = payload.split(',');
+
+var tegangan = null;
+var arus = null;
+var daya = null;
+var suhu = null;
+var baterai = null;
+
+data.forEach(function (item) {
+    var keyValue = item.split(':');
+    if (keyValue.length === 2) {
+        var key = keyValue[0].trim();
+        var value = keyValue[1].trim();
+
+        // Assign nilai berdasarkan key
+        if (key === "tegangan") {
+            tegangan = parseFloat(value); // Menggunakan parseFloat jika tegangan bisa desimal
+        } else if (key === "arus") {
+            arus = parseFloat(value);  // Pastikan angka desimal
+        } else if (key === "daya") {
+            daya = parseFloat(value);
+        } else if (key === "suhu") {
+            suhu = parseFloat(value);
+        } else if (key === "baterai") {
+            baterai = parseFloat(value);
+        }
+    }
+}); 
+
+if (tegangan !== null && arus !== null && daya !== null && suhu !== null && baterai !== null) {
+    
+    var query = `INSERT INTO sensor (tegangan, arus, daya, suhu, baterai) 
+    VALUES (${tegangan}, ${arus}, ${daya}, ${suhu}, ${baterai})`;
+
+    console.log("Generated SQL Query:", query);
+    msg.topic = query;
+} else {
+    msg.error = "Data tidak lengkap atau salah format.";
+}
+
+return msg;
