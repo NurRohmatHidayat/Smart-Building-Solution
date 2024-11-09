@@ -95,7 +95,7 @@ Berikut adalah Link Thingivers Design 3D. Klik link Video Simulasi Software [Thi
 Program utama dari projek ini :
 - [Arduino dengan C](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Program%20ESP32/Smart%20Building/Smart%20Building/src)
 
-Berikut adalah video demontrasi prototype hardware. Klik link [Video Simulasi Prototype](https://youtu.be/oXDYyiHHBaU)
+Berikut adalah video demontrasi prototype hardware. Klik link [Video Simulasi Prototype](https://youtube.com/shorts/licZBOOe8F4?feature=share)
 
 Berikut ini adalah hasil rangkaian Prototype Smart Building System IoT.
 
