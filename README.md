@@ -68,13 +68,13 @@ Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke 
 ## [Hardware](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Hardware)
 
 Berikut ini adalah hasil skematik rangkaian Smart Building System IoT menggunakan software KiCad.
-<img src="Dokumentasi/Smart Building SCH.png">
+<img src="Dokumentasi/Smart Building SCH.png" width = 600>
 
 Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
-<img src="Dokumentasi/Smart Building Board.png">
+<img src="Dokumentasi/Smart Building Board.png" width = 600>
 
 Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
-<img src="Dokumentasi/Smart Building 3D Board.png">
+<img src="Dokumentasi/3D board.jpg" width = 600>
 
 ## [Desain 3D](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Desain%203D)
 
@@ -96,11 +96,14 @@ Berikut adalah Link Thingivers Design 3D. Klik link Video Simulasi Software [Thi
 ## Program ESP32
 
 Program utama dari projek ini :
-- [Arduino dengan C](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Program%20ESP32)
+- [Arduino dengan C](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Program%20ESP32/Smart%20Building/Smart%20Building/src)
 
-Berikut ini adalah hasil rangkaian simulasi Smart Building System IoT menggunakan Wokwi.
+Berikut adalah video demontrasi prototype hardware. Klik link [Video Simulasi Prototype](https://youtu.be/oXDYyiHHBaU)
 
-<img src="Dokumentasi/Rangkaian Modul ESP32.jpg">
+Berikut ini adalah hasil rangkaian Prototype Smart Building System IoT.
+
+<img src="Dokumentasi/Prototype.jpg" width = 600>
+
 Simulasi ini kami menggunakan ESP32 untuk mengontrol sensor dan modul yang terhubung di breadboard. Simulasi dilakukan menggunakan Wokwi, yang memudahkan pengujian rangkaian secara virtual sebelum implementasi fisik. Rangkaian melibatkan sensor DHT22, modul relay, LED indikator, potensiometer, dan RTC untuk sinkronisasi waktu.
 
 Relay digunakan untuk mengontrol perangkat eksternal, sementara LED menunjukkan status sistem. Simulasi ini membantu dalam debugging dan memastikan komunikasi antar komponen berjalan baik. Meskipun Wokwi tidak menyediakan semua komponen, platform ini sangat berguna untuk pengujian dan visualisasi fungsi dasar rangkaian, membantu mengidentifikasi masalah sebelum produksi fisik.
@@ -110,4 +113,11 @@ Berikut adalah video demontrasi alat menggunakan wokwi. Klik link [Video Simulas
 
 ## [Program Design UI/UX]
 
-Berikut ini adalah program untuk WEB Smart Building System IoT menggunakan bahasa HTML [Program](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer)
+Node-RED digunakan sebagai back end untuk proyek web kami, yang berfungsi mengelola aliran data dan pemrosesannya. Data yang ditampilkan pada antarmuka web berasal dari broker MQTT di mqtt.cool, di mana Node-RED berlangganan ke topik yang relevan, memproses data sesuai kebutuhan, dan menyajikannya ke front end. Pengaturan ini memungkinkan penanganan data secara real-time dan integrasi yang efisien dengan platform web kami.
+
+Berikut adalah alur dari program Node Red yang berfungsi untuk menerima data mqtt.cool kemudian disimpan pada database Mysql.
+<img src="Dokumentasi/Node Red.png">
+
+Berikut ini adalah program untuk Back-end Smart Building System IoT menggunakan Node-RED [Node-RED](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer)
+
+Berikut ini adalah program untuk WEB Smart Building System IoT menggunakan bahasa HTML [Program](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer/node-red)
