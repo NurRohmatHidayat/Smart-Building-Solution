@@ -68,18 +68,24 @@ Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke 
 ## [Hardware](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Hardware)
 
 Berikut ini adalah hasil skematik rangkaian Smart Building System IoT menggunakan software KiCad.
-<img src="Dokumentasi/Smart Building SCH.png" width = 600>
+<img src="Dokumentasi/Smart Building SCH.png" width = 700>
 
 Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+<img src="Dokumentasi/Smart Building Board.png" width = 700>
 
+Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+<img src="Dokumentasi/Smart Building 3D Board.jpg" width = 700>
 
 ## [Desain 3D](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Desain%203D)
 
 1. Desain 3D Casing Top <br>
-<img src="Dokumentasi/Design Atas.png">
+<img src="Dokumentasi/Design Atas.png" width = 400>
 
 2. Desain 3D Casing Down <br>
-<img src="Dokumentasi/BOX_Hardware.png">
+<img src="Dokumentasi/BOX_Hardware.png" width = 400>
+
+3. Desain 3D Using Komponen <br>
+<img src="Dokumentasi/UsingKomponen.png" width = 400>
 
 Berikut adalah Link Thingivers Design 3D. Klik link Video Simulasi Software [Thingivers](https://www.thingiverse.com/thing:6796394)
 
@@ -104,4 +110,11 @@ Berikut adalah video demontrasi alat menggunakan wokwi. Klik link [Video Simulas
 
 ## [Program Design UI/UX]
 
+Node-RED digunakan sebagai back end untuk proyek web kami, yang berfungsi mengelola aliran data dan pemrosesannya. Data yang ditampilkan pada antarmuka web berasal dari broker MQTT di mqtt.cool, di mana Node-RED berlangganan ke topik yang relevan, memproses data sesuai kebutuhan, dan menyajikannya ke front end. Pengaturan ini memungkinkan penanganan data secara real-time dan integrasi yang efisien dengan platform web kami.
 
+Berikut adalah alur dari program Node Red yang berfungsi untuk menerima data mqtt.cool kemudian disimpan pada database Mysql.
+<img src="Dokumentasi/Node Red.png">
+
+Berikut ini adalah program untuk Back-end Smart Building System IoT menggunakan Node-RED [Node-RED](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer)
+
+Berikut ini adalah program untuk WEB Smart Building System IoT menggunakan bahasa HTML [Program](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer/node-red)
