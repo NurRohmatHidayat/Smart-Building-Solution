@@ -25,6 +25,10 @@ Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke 
 | 2122600020    | Ezar Prasetya               | UI/UX Designer     | [Ezar](https://github.com/EzarPrasetya)
 | 2122600030    | Ziyad Nur Muhammad               | 3D Designer     |[Ziyad](https://github.com/Yadnur)
 
+#### Preview Video
+
+https://github.com/user-attachments/assets/8750dca7-19aa-41fc-97a8-4954fc9a0d99
+
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
 - [Wiring Plan](#Wiring-Plan)
@@ -79,16 +83,11 @@ Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunaka
 
 ## [Desain 3D](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Desain%203D)
 
-1. Desain 3D Casing Top <br>
-<img src="Dokumentasi/Design Atas.png" width = 400>
+## Preview Video 3D Design
 
-2. Desain 3D Casing Down <br>
-<img src="Dokumentasi/BOX_Hardware.png" width = 400>
+https://github.com/user-attachments/assets/e34dfbfa-0edd-4161-8904-f4dbc712b04a
 
-3. Desain 3D Using Komponen <br>
-<img src="Dokumentasi/UsingKomponen.png" width = 400>
-
-Berikut adalah Link Thingivers Design 3D. Klik link Video Simulasi Software [Thingivers](https://www.thingiverse.com/thing:6796394)
+Berikut adalah Link Thingivers Design 3D. Asset 3D bisa didownload pada link [Thingivers](https://www.thingiverse.com/thing:6796394)
 
 ## Block Diagram
 Berikut adalah alur block diagram untuk mengirim data sensor dari publisher ke database
@@ -99,13 +98,11 @@ Berikut adalah alur block diagram untuk mengirim data sensor dari publisher ke d
 Program utama dari projek ini :
 - [Arduino dengan C](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Program%20ESP32/Smart%20Building/Smart%20Building/src)
 
-Berikut adalah video demontrasi prototype hardware. Klik link [Video Simulasi Prototype](https://youtube.com/shorts/licZBOOe8F4?feature=share)
+Berikut adalah video demontrasi prototype hardware. 
 
-Berikut ini adalah hasil rangkaian Prototype Smart Building System IoT.
+https://github.com/user-attachments/assets/7abacf07-8daf-47ce-86e2-667d23beedc0
 
-<img src="Dokumentasi/Prototype.jpg" width = 600>
-
-Simulasi ini kami menggunakan ESP32 untuk mengontrol sensor dan modul yang terhubung di breadboard. Simulasi dilakukan menggunakan Wokwi, yang memudahkan pengujian rangkaian secara virtual sebelum implementasi fisik. Rangkaian melibatkan sensor DHT22, modul relay, LED indikator, potensiometer, dan RTC untuk sinkronisasi waktu.
+Simulasi ini kami menggunakan ESP32 untuk mengontrol sensor dan modul yang terhubung di breadboard. Simulasi dilakukan menggunakan Wokwi, yang memudahkan pengujian rangkaian secara virtual sebelum implementasi fisik. Rangkaian melibatkan sensor DHT11, modul relay, LED indikator, potensiometer, dan RTC untuk sinkronisasi waktu.
 
 Relay digunakan untuk mengontrol perangkat eksternal, sementara LED menunjukkan status sistem. Simulasi ini membantu dalam debugging dan memastikan komunikasi antar komponen berjalan baik. Meskipun Wokwi tidak menyediakan semua komponen, platform ini sangat berguna untuk pengujian dan visualisasi fungsi dasar rangkaian, membantu mengidentifikasi masalah sebelum produksi fisik.
 
