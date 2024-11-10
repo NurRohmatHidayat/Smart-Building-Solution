@@ -3,7 +3,7 @@
 #include <Wire.h>               // I2C untuk RTC
 //#include <Adafruit_Sensor.h>    // Sesuaikan jika ada sensor spesifik untuk tegangan dan arus
 //#include <Adafruit_BME280.h>    // Contoh jika ada sensor tegangan (ganti sesuai sensor kamu)
-#include <RTClib.h>
+
 #include "DHT.h"
 
 //********//
