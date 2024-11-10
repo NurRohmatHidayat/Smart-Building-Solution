@@ -118,6 +118,8 @@ Pada proyek ini, ESP32 menggunakan Wi-Fi Manager untuk mempermudah proses koneks
 Berikut tampilan pada wifi manager untuk menghubungkan ESP32 ke jaringan internet
 <img src="Dokumentasi/wifi manager.png">
 
+Setelah ESP32 terhubung ke internet, modul ini akan mengirim data secara berkala ke broker MQTT (dalam hal ini menggunakan broker Cool MQTT). Broker MQTT berfungsi sebagai perantara yang memungkinkan ESP32 mengirim data ke sistem lain dalam arsitektur ini.
+
 Node-RED digunakan sebagai back end untuk proyek web kami, yang berfungsi mengelola aliran data dan pemrosesannya. Data yang ditampilkan pada antarmuka web berasal dari broker MQTT di mqtt.cool, di mana Node-RED berlangganan ke topik yang relevan, memproses data sesuai kebutuhan, dan menyajikannya ke front end. Pengaturan ini memungkinkan penanganan data secara real-time dan integrasi yang efisien dengan platform web kami.
 
 Berikut adalah alur dari program Node Red yang berfungsi untuk menerima data mqtt.cool kemudian disimpan pada database Mysql.
