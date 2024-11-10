@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="./scripts/firebase-config.js"></script>
+    <script src="./scripts/script.js"></script>
+    <link rel="stylesheet" href="./styles/data_floor.css"> </link>
+    <title>Sensor Data Display</title>
+</head>
+<body>
+    <h1>Real-Time Sensor Data</h1>
+    <div>
+        <p>Battery: <span id="battery">Loading...</span></p>
+        <p>Current: <span id="current">Loading...</span></p>
+        <p>Energy (kWh): <span id="kwh">Loading...</span></p>
+        <p>Temperature: <span id="temperature">Loading...</span></p>
+        <p>Voltage: <span id="voltage">Loading...</span></p>
+        
+    </div>
+
+    <script>
+
+        // Initialize Firebase
+        const db = firebase.firestore(app);
+
+        // Reference ke koleksi dan dokumen
+        const sensorRef = db.collection("smartbuilding").doc("sensor");
+
+        // Mendengarkan perubahan data secara real-time
+        sensorRef.onSnapshot((doc) => {
+            if (doc.exists) {
+                const data = doc.data();
+
+                // Mengonversi data dari string ke tipe yang sesuai
+                const battery = parseFloat(data.battery);
+                const current = parseFloat(data.current);
+                const kwh = parseFloat(data.kwh);
+                const temperature = parseFloat(data.temperature);
+                const voltage = parseFloat(data.voltage);
+                
+
+                // Menampilkan data pada elemen HTML
+                document.getElementById("battery").textContent = `${battery} %`;
+                document.getElementById("current").textContent = `${current} A`;
+                document.getElementById("kwh").textContent = `${kwh} kWh`;
+                document.getElementById("temperature").textContent = `${temperature} °C`;
+                document.getElementById("voltage").textContent = `${voltage} V`;
+                
+
+            } else {
+                console.log("Tidak ada data sensor!");
+            }
+        });
+    </script>
+</body>
+</html>
