@@ -114,6 +114,10 @@ Berikut adalah video demontrasi alat menggunakan wokwi. Klik link [Video Simulas
 
 ## [Alur Komunikasi]
 
+Pada proyek ini, ESP32 menggunakan Wi-Fi Manager untuk mempermudah proses koneksi ke jaringan Wi-Fi. Wi-Fi Manager memungkinkan pengguna untuk memilih dan menghubungkan ESP32 ke jaringan internet tanpa harus mengubah kode sumber setiap kali ada perubahan pada jaringan.
+Berikut tampilan pada wifi manager untuk menghubungkan ESP32 ke jaringan internet
+<img src="Dokumentasi/wifi manager.png">
+
 Node-RED digunakan sebagai back end untuk proyek web kami, yang berfungsi mengelola aliran data dan pemrosesannya. Data yang ditampilkan pada antarmuka web berasal dari broker MQTT di mqtt.cool, di mana Node-RED berlangganan ke topik yang relevan, memproses data sesuai kebutuhan, dan menyajikannya ke front end. Pengaturan ini memungkinkan penanganan data secara real-time dan integrasi yang efisien dengan platform web kami.
 
 Berikut adalah alur dari program Node Red yang berfungsi untuk menerima data mqtt.cool kemudian disimpan pada database Mysql.
