@@ -64,6 +64,8 @@ Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke 
 >- Second Floor Plan
 >- <img src="Assets/Second Floor Plan.jpg" width = 400>
 
+## Link YouTube 
+https://youtu.be/4Z63st0WbLA
 
 ## [Hardware](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Hardware)
 
