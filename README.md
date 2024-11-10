@@ -1,4 +1,4 @@
-<img src="Dokumentasi/Poster.jpg">
+<img src="Dokumentasi/Poster GT.png">
 
 # GriyaTech
 ## Smart-Building-System-Berbasis IoT
