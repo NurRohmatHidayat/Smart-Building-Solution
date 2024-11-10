@@ -90,6 +90,9 @@ Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunaka
 
 Berikut adalah Link Thingivers Design 3D. Klik link Video Simulasi Software [Thingivers](https://www.thingiverse.com/thing:6796394)
 
+## Block Diagram
+Berikut adalah alur block diagram untuk mengirim data sensor dari publisher ke database
+<img src="Dokumentasi/block diagram.png" width = 400>
 
 ## Program ESP32
 
