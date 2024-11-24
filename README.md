@@ -73,7 +73,12 @@ https://github.com/user-attachments/assets/dadaf9dd-aac7-4402-b66a-3c4db6aee498
 >- <img src="Assets/Second Floor Plan.jpg" width = 400>
 
 ## Link YouTube 
+
+Link youtube video produk
 https://youtu.be/4Z63st0WbLA
+
+Link youtube video iklan
+https://youtu.be/mOYy9-KewV4
 
 ## [Hardware](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Hardware)
 
