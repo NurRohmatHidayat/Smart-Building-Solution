@@ -25,9 +25,13 @@ Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke 
 | 2122600020    | Ezar Prasetya               | UI/UX Designer     | [Ezar](https://github.com/EzarPrasetya)
 | 2122600030    | Ziyad Nur Muhammad               | 3D Designer     |[Ziyad](https://github.com/Yadnur)
 
-#### Preview Video
+#### Preview Video Produk
 
 https://github.com/user-attachments/assets/8750dca7-19aa-41fc-97a8-4954fc9a0d99
+
+#### Preview Video Iklan 
+
+
 
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
@@ -98,12 +102,19 @@ https://github.com/user-attachments/assets/e34dfbfa-0edd-4161-8904-f4dbc712b04a
 
 Berikut adalah Link Thingivers Design 3D. Asset 3D bisa didownload pada link [Thingivers](https://www.thingiverse.com/thing:6796394)
 
-# Diagram Block
+## Diagram Block
 <img src="Dokumentasi/Diagram Block.png">
 
 ## Diagram Arsitektur System
 Berikut adalah alur Diagram untuk mengirim data sensor dari publisher ke database
 <img src="Dokumentasi/Diagram System.png">
+
+## Preview Penggunaan OTA
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/ayushsharma82/ElegantOTA/master/docs/demo.gif" width="600">
+</div>
+
 
 ## Program ESP32
 
