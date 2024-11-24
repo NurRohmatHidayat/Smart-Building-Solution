@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/8750dca7-19aa-41fc-97a8-4954fc9a0d99
 
 #### Preview Video Iklan 
 
-
+https://github.com/user-attachments/assets/dadaf9dd-aac7-4402-b66a-3c4db6aee498
 
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
