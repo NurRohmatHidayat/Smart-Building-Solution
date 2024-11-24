@@ -74,26 +74,36 @@ https://youtu.be/4Z63st0WbLA
 ## [Hardware](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Hardware)
 
 Berikut ini adalah hasil skematik rangkaian Smart Building System IoT menggunakan software KiCad.
+<div align="center">
 <img src="Dokumentasi/Smart Building SCH.png" width = 700>
+</div>
 
 Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+<div align="center">
 <img src="Dokumentasi/Smart Building Board.png" width = 700>
+</div>
 
 Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+<div align="center">
 <img src="Dokumentasi/Smart Building 3D Board.jpg" width = 700>
+</div>
 
 
 ## [Desain 3D](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Desain%203D)
 
 ## Preview Video 3D Design
 
+
 https://github.com/user-attachments/assets/e34dfbfa-0edd-4161-8904-f4dbc712b04a
 
 Berikut adalah Link Thingivers Design 3D. Asset 3D bisa didownload pada link [Thingivers](https://www.thingiverse.com/thing:6796394)
 
-## Block Diagram
-Berikut adalah alur block diagram untuk mengirim data sensor dari publisher ke database
-<img src="Dokumentasi/block diagram.png" width = 400>
+# Diagram Block
+<img src="Dokumentasi/Diagram Block.png">
+
+## Diagram Arsitektur System
+Berikut adalah alur Diagram untuk mengirim data sensor dari publisher ke database
+<img src="Dokumentasi/Diagram System.png">
 
 ## Program ESP32
 
@@ -115,7 +125,10 @@ Berikut adalah video demontrasi alat menggunakan wokwi. Klik link [Video Simulas
 
 Pada proyek ini, ESP32 menggunakan Wi-Fi Manager untuk mempermudah proses koneksi ke jaringan Wi-Fi. Wi-Fi Manager memungkinkan pengguna untuk memilih dan menghubungkan ESP32 ke jaringan internet tanpa harus mengubah kode sumber setiap kali ada perubahan pada jaringan.
 Berikut tampilan pada wifi manager untuk menghubungkan ESP32 ke jaringan internet
+
+<div align="center">
 <img src="Dokumentasi/wifi manager.png">
+</div>
 
 Setelah ESP32 terhubung ke internet, modul ini akan mengirim data secara berkala ke broker MQTT (dalam hal ini menggunakan broker Cool MQTT). Broker MQTT berfungsi sebagai perantara yang memungkinkan ESP32 mengirim data ke sistem lain dalam arsitektur ini.
 berikut tampilan broker.mqtt.cool yang menerima data sensor dari publisher ESP32
