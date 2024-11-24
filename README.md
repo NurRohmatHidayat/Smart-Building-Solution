@@ -25,6 +25,10 @@ Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke 
 | 2122600020    | Ezar Prasetya               | UI/UX Designer     | [Ezar](https://github.com/EzarPrasetya)
 | 2122600030    | Ziyad Nur Muhammad               | 3D Designer     |[Ziyad](https://github.com/Yadnur)
 
+#### Preview Video
+
+https://github.com/user-attachments/assets/8750dca7-19aa-41fc-97a8-4954fc9a0d99
+
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
 - [Wiring Plan](#Wiring-Plan)
@@ -68,31 +72,35 @@ Dengan bantuan teknologi IoT, seluruh data dari sensor-sensor ini dikirimkan ke 
 ## [Hardware](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Hardware)
 
 Berikut ini adalah hasil skematik rangkaian Smart Building System IoT menggunakan software KiCad.
+<div align="center">
 <img src="Dokumentasi/Smart Building SCH.png" width = 700>
+</div>
 
 Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+<div align="center">
 <img src="Dokumentasi/Smart Building Board.png" width = 700>
+</div>
 
 Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunakan software KiCad.
+<div align="center">
 <img src="Dokumentasi/Smart Building 3D Board.jpg" width = 700>
+</div>
 
 
 ## [Desain 3D](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Desain%203D)
 
-1. Desain 3D Casing Top <br>
-<img src="Dokumentasi/Design Atas.png" width = 400>
+## Preview Video 3D Design
 
-2. Desain 3D Casing Down <br>
-<img src="Dokumentasi/BOX_Hardware.png" width = 400>
-
-3. Desain 3D Using Komponen <br>
-<img src="Dokumentasi/UsingKomponen.png" width = 400>
+https://github.com/user-attachments/assets/e34dfbfa-0edd-4161-8904-f4dbc712b04a
 
 Berikut adalah Link Thingivers Design 3D. Klik link Video Simulasi Software [Thingivers](https://www.thingiverse.com/thing:6796394)
 
-## Block Diagram
-Berikut adalah alur block diagram untuk mengirim data sensor dari publisher ke database
-<img src="Dokumentasi/block diagram.png" width = 400>
+# Diagram Block
+<img src="Dokumentasi/Diagram Block.png">
+
+## Diagram Arsitektur System
+Berikut adalah alur Diagram untuk mengirim data sensor dari publisher ke database
+<img src="Dokumentasi/Diagram System.png">
 
 ## Program ESP32
 
@@ -101,9 +109,9 @@ Program utama dari projek ini :
 
 Berikut adalah video demontrasi prototype hardware. Klik link [Video Simulasi Prototype](https://youtube.com/shorts/licZBOOe8F4?feature=share)
 
-Berikut ini adalah hasil rangkaian Prototype Smart Building System IoT.
+Berikut adalah video demontrasi prototype hardware. 
 
-<img src="Dokumentasi/Prototype.jpg" width = 600>
+https://github.com/user-attachments/assets/7abacf07-8daf-47ce-86e2-667d23beedc0
 
 Simulasi ini kami menggunakan ESP32 untuk mengontrol sensor dan modul yang terhubung di breadboard. Simulasi dilakukan menggunakan Wokwi, yang memudahkan pengujian rangkaian secara virtual sebelum implementasi fisik. Rangkaian melibatkan sensor DHT22, modul relay, LED indikator, potensiometer, dan RTC untuk sinkronisasi waktu.
 
@@ -116,7 +124,10 @@ Berikut adalah video demontrasi alat menggunakan wokwi. Klik link [Video Simulas
 
 Pada proyek ini, ESP32 menggunakan Wi-Fi Manager untuk mempermudah proses koneksi ke jaringan Wi-Fi. Wi-Fi Manager memungkinkan pengguna untuk memilih dan menghubungkan ESP32 ke jaringan internet tanpa harus mengubah kode sumber setiap kali ada perubahan pada jaringan.
 Berikut tampilan pada wifi manager untuk menghubungkan ESP32 ke jaringan internet
+
+<div align="center">
 <img src="Dokumentasi/wifi manager.png">
+</div>
 
 Setelah ESP32 terhubung ke internet, modul ini akan mengirim data secara berkala ke broker MQTT (dalam hal ini menggunakan broker Cool MQTT). Broker MQTT berfungsi sebagai perantara yang memungkinkan ESP32 mengirim data ke sistem lain dalam arsitektur ini.
 
