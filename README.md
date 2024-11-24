@@ -68,6 +68,8 @@ https://github.com/user-attachments/assets/8750dca7-19aa-41fc-97a8-4954fc9a0d99
 >- Second Floor Plan
 >- <img src="Assets/Second Floor Plan.jpg" width = 400>
 
+## Link YouTube 
+https://youtu.be/4Z63st0WbLA
 
 ## [Hardware](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Hardware)
 
@@ -91,9 +93,10 @@ Berikut ini adalah hasil 3D dari  rangkaian Smart Building System IoT menggunaka
 
 ## Preview Video 3D Design
 
+
 https://github.com/user-attachments/assets/e34dfbfa-0edd-4161-8904-f4dbc712b04a
 
-Berikut adalah Link Thingivers Design 3D. Klik link Video Simulasi Software [Thingivers](https://www.thingiverse.com/thing:6796394)
+Berikut adalah Link Thingivers Design 3D. Asset 3D bisa didownload pada link [Thingivers](https://www.thingiverse.com/thing:6796394)
 
 # Diagram Block
 <img src="Dokumentasi/Diagram Block.png">
@@ -107,13 +110,11 @@ Berikut adalah alur Diagram untuk mengirim data sensor dari publisher ke databas
 Program utama dari projek ini :
 - [Arduino dengan C](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Program%20ESP32/Smart%20Building/Smart%20Building/src)
 
-Berikut adalah video demontrasi prototype hardware. Klik link [Video Simulasi Prototype](https://youtube.com/shorts/licZBOOe8F4?feature=share)
-
 Berikut adalah video demontrasi prototype hardware. 
 
 https://github.com/user-attachments/assets/7abacf07-8daf-47ce-86e2-667d23beedc0
 
-Simulasi ini kami menggunakan ESP32 untuk mengontrol sensor dan modul yang terhubung di breadboard. Simulasi dilakukan menggunakan Wokwi, yang memudahkan pengujian rangkaian secara virtual sebelum implementasi fisik. Rangkaian melibatkan sensor DHT22, modul relay, LED indikator, potensiometer, dan RTC untuk sinkronisasi waktu.
+Simulasi ini kami menggunakan ESP32 untuk mengontrol sensor dan modul yang terhubung di breadboard. Simulasi dilakukan menggunakan Wokwi, yang memudahkan pengujian rangkaian secara virtual sebelum implementasi fisik. Rangkaian melibatkan sensor DHT11, modul relay, LED indikator, potensiometer, dan RTC untuk sinkronisasi waktu.
 
 Relay digunakan untuk mengontrol perangkat eksternal, sementara LED menunjukkan status sistem. Simulasi ini membantu dalam debugging dan memastikan komunikasi antar komponen berjalan baik. Meskipun Wokwi tidak menyediakan semua komponen, platform ini sangat berguna untuk pengujian dan visualisasi fungsi dasar rangkaian, membantu mengidentifikasi masalah sebelum produksi fisik.
 
@@ -130,6 +131,8 @@ Berikut tampilan pada wifi manager untuk menghubungkan ESP32 ke jaringan interne
 </div>
 
 Setelah ESP32 terhubung ke internet, modul ini akan mengirim data secara berkala ke broker MQTT (dalam hal ini menggunakan broker Cool MQTT). Broker MQTT berfungsi sebagai perantara yang memungkinkan ESP32 mengirim data ke sistem lain dalam arsitektur ini.
+berikut tampilan broker.mqtt.cool yang menerima data sensor dari publisher ESP32
+<img src="Dokumentasi/broker mqtt cool.jpg">
 
 Node-RED digunakan sebagai back end untuk proyek web kami, yang berfungsi mengelola aliran data dan pemrosesannya. Data yang ditampilkan pada antarmuka web berasal dari broker MQTT di mqtt.cool, di mana Node-RED berlangganan ke topik yang relevan, memproses data sesuai kebutuhan, dan menyajikannya ke front end. Pengaturan ini memungkinkan penanganan data secara real-time dan integrasi yang efisien dengan platform web kami.
 
