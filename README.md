@@ -158,3 +158,36 @@ Berikut adalah alur dari program Node Red yang berfungsi untuk menerima data mqt
 Berikut ini adalah program untuk Back-end Smart Building System IoT menggunakan Node-RED [Node-RED](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer)
 
 Berikut ini adalah program untuk WEB Smart Building System IoT menggunakan bahasa HTML [Program](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer/node-red)
+
+## [Langkah-Langkah Penggunaan]
+Berikut adalah langkah-langkah menggunakan produk "smart building" untuk para pelanggan:
+
+1. Mengaktifkan Perangkat
+Pastikan perangkat sudah terisi daya atau menggunakan baterai bawaan.
+Tekan tombol Power untuk menghidupkan perangkat. Indikator lampu akan menyala sebagai tanda bahwa perangkat aktif.
+
+2. Menghubungkan Perangkat ke Wi-Fi
+Setelah perangkat aktif, buka smartphone atau laptop Anda.
+Cari jaringan Wi-Fi dengan nama (ESP32_AP) sesuai perangkat, misalnya: SmartBuilding-Setup.
+Hubungkan perangkat Anda ke Wi-Fi tersebut.
+Secara otomatis, halaman konfigurasi Wi-Fi Manager akan terbuka. Jika tidak terbuka, buka browser dan masukkan alamat IP: 192.168.4.1.
+Pada halaman Wi-Fi Manager:
+  Pilih jaringan Wi-Fi gedung Anda.
+  Masukkan kata sandi Wi-Fi.
+  Klik Connect.
+Tunggu hingga perangkat terhubung ke internet. Indikator lampu hijau akan menyala jika koneksi berhasil.
+
+3. Memastikan Perangkat Aktif dan Berfungsi
+Perangkat akan mulai membaca data seperti tegangan, arus, daya listrik, dan suhu ruangan.
+Pastikan semua sensor bekerja dengan benar dengan melihat indikator status pada perangkat.
+
+4. Mengakses Web untuk Memantau Data Sensor
+Buka browser Anda dan masukkan alamat web yang telah diberikan, misalnya: [http://d4elkasmartbuilding.rf.gd/?i=1] atau IP tertentu.
+Masuk ke dashboard menggunakan kredensial yang sudah disediakan.
+
+5. Mengelola dan Memantau Data
+Pada dashboard web, Anda dapat:
+Melihat Data Real-Time: Tegangan, arus, daya, dan suhu.
+Mengontrol Perangkat: Atur suhu ruangan dengan AC atau kipas.
+Jadwalkan Lampu: Tentukan kapan lampu dinyalakan/dimatikan.
+Semua perubahan yang Anda lakukan akan langsung diterapkan pada perangkat.
