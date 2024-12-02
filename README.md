@@ -33,6 +33,10 @@ https://github.com/user-attachments/assets/8750dca7-19aa-41fc-97a8-4954fc9a0d99
 
 https://github.com/user-attachments/assets/dadaf9dd-aac7-4402-b66a-3c4db6aee498
 
+#### Preview Slide Presentasi
+
+- [Slide Presentasi PDF](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/Assets)
+
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
 - [Wiring Plan](#Wiring-Plan)
@@ -158,6 +162,12 @@ Berikut adalah alur dari program Node Red yang berfungsi untuk menerima data mqt
 Berikut ini adalah program untuk Back-end Smart Building System IoT menggunakan Node-RED [Node-RED](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer)
 
 Berikut ini adalah program untuk WEB Smart Building System IoT menggunakan bahasa HTML [Program](https://github.com/NurRohmatHidayat/Smart-Building-Solution/tree/main/UI/UX%20Designer/node-red)
+
+## Design Protitype Figma
+
+<div align="center">
+<img src="Dokumentasi/Figma.jpg">
+</div>
 
 ## [Langkah-Langkah Penggunaan]
 Berikut adalah langkah-langkah menggunakan produk "smart building" untuk para pelanggan:
